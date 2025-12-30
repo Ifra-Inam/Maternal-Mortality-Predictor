@@ -55,6 +55,7 @@ function App() {
 
   return (
     <>
+      <h3>Maternal Mortality Predictor</h3>
       <form>
         <label>Age* <input type="number" name="age" value={formData.age} onChange={handleChange} required/></label>
         <label>Systolic BP* <input type="number" name="systolicBP" value={formData.systolicBP} onChange={handleChange} required/></label>
