@@ -12,8 +12,8 @@ By integrating this tool into clinical practice, healthcare professionals can:
 
 ## Features
 
-* **User-friendly interface** built with React and CSS for quick input of patient data.
-* **Backend powered by Flask**, handling requests and serving predictions.
+* **User-friendly interface:** Built with React and CSS for quick input of patient data.
+* **Backend:** Powered by Flask, handling requests and serving predictions.
 * **Machine learning model:** Random Forest tuned via grid search and hyperparameter optimization.
 * **Data preprocessing:** Includes scaling and oversampling to handle imbalanced datasets.
 * **Risk prediction:** Displayed immediately on the web interface after form submission.
@@ -77,8 +77,8 @@ pip install -r requirements.txt
 ### 5. Run the backend
 
 ```bash
-python training.py   # Optional: generates the model
-python app.py        # Start the Flask server
+python training.py   
+python app.py        
 ```
 
 ### 6. Navigate to the frontend folder
@@ -98,8 +98,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-Now the app should be accessible at `http://localhost:3000`.
 
 ---
 
@@ -154,5 +152,3 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 * Dataset from UCI Machine Learning Repository
 * Inspiration from maternal health research and AI-driven healthcare solutions
-
----
