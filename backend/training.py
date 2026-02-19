@@ -19,7 +19,7 @@ y = df.iloc[:,-1].values
 pipe = Pipeline([
     ('scaler', StandardScaler()),
     ('ros', RandomOverSampler()),
-    ('model', RandomForestClassifier(max_depth=35, n_estimators=1500))
+    ('model', RandomForestClassifier(max_depth=100, n_estimators=100))
 ])
 
 # Fits the entire pipeline so the Flask app can call predict() without re-implementing scaling or preprocessing logic
