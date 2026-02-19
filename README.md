@@ -37,6 +37,7 @@ Follow these steps to run the project locally:
 
 ```bash
 git clone https://github.com/Ifra-Inam/Maternal-Mortality-Predictor.git
+cd Maternal-Mortality-Predictor
 cd backend
 ```
 
